@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    border: 2px solid #FF0000;
+    margin: 30px;
+    box-sizing: border-box;
+    position: static;
+    top: 100px;
+    left: 200px;
+    bottom: 0;
+    right: 0;
+}
+
+span{
+    display: block;
+}
+
+ol{
+    background-color: navy;
+}
+
+li{
+    background-color: #000;
+    color: #FFF;
+    display: inline-block;
+    padding: 30px;
+    border: 2px solid #CCC;
+}
+
+
+#interna{
+    width: 500px;
+    border: 2px solid red;
+    display: block;
+    margin: auto;
+}
+
+#interna span{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
