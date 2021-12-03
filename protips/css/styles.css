@@ -1,0 +1,159 @@
+/* GERAIS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* MAIN CONTENT */
+.main {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+/* HERO CONTAINER */
+
+.hero-container {
+    background: url("../images/artboard.jpg") no-repeat center 0;
+    padding-top: 40px;
+}
+
+/* NAVBAR */
+
+.logo {
+    width: 100px;
+    height: 33px;
+    background: url("../images/Logo.png") no-repeat 0 0;
+    display: block;
+}
+
+.logotype {
+    float: left;
+}
+
+.list-items {
+    float: right;
+}
+
+.item {
+    float: left;
+    margin: 0 10px;
+}
+
+.item-link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#bt-signin a {
+    margin-left: 20px;
+    border: 1px solid #FFF;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+#bt-signup a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #2F281E;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* HERO INFO */
+
+.hero-info {
+    margin-top: 100px;
+}
+
+.hero-text {
+    padding-top: 60px;
+    float: left;
+    width: 50%;
+}
+
+.hero-title {
+    color: #3B3322;
+    font-size: 44px;
+    line-height: 48px;
+}
+
+.hero-title span {
+    font-weight: 600;
+}
+
+.hero-p {
+    font-size: 18px;
+    color: #544837;
+    line-height: 24px;
+    margin: 40px 0 30px 0;
+}
+
+.hero-btn {
+    background-color: #FF4F4F;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.hero-img {
+    float: left;
+    width: 50%;
+}
