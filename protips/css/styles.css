@@ -46,11 +46,13 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* MAIN CONTENT */
-.main {
+/* CENTER */
+.center {
     width: 1110px;
     margin: 0 auto;
 }
+
+/* IMG HERO BACKGROUND */
 
 .main-container {
     background: url("../images/artboard.jpg") no-repeat center 0;
@@ -204,4 +206,45 @@ html, body {
     font-size: 16px;
     color: #5C5040;
     line-height: 22px;
+}
+
+/* ABOUT AREA */
+
+#about {
+    background: url("../images/bg-about.png") center 0 no-repeat;
+    height: 800px;
+}
+
+.about-img {
+    width: 50%;
+    float: left;
+}
+
+.about-text {
+    width: 50%;
+    float: left;
+}
+
+.about-text-title {
+    font-size: 17px;
+    line-height: 19px;
+    color: #262626;
+    margin-left: 60px;
+}
+
+.about-text-title span {
+    float: left;
+    opacity: 0.7;
+    padding: 9px 10px 0 0;
+}
+
+.about-text-title i {
+    float: left;
+}
+
+.about-text-subtitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #262626;
+    margin: 10px 0 20px 60px;
 }
