@@ -216,7 +216,7 @@ html, body {
 }
 
 #about .center {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .about-img {
@@ -301,4 +301,80 @@ html, body {
     color: #FF4F4F;
     font-size: 19px;
     font-weight: 500;
+}
+
+/* TESTIMONIALS AREA */
+
+.box-test {
+    text-align: center;
+}
+
+.title-test {
+    font-size: 34px;
+    line-height: 36px;
+    color: #342D20;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.sub-test {
+    font-size: 20px;
+    color: #544837;
+}
+
+.img-test {
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 60px auto 10px auto;
+}
+
+.info-test {
+    margin: 10px auto 10px auto;
+}
+
+.name-test {
+    display: block;
+    color: #122649;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.role-test {
+    display: block;
+    color: #FF4F4F;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.parag-test {
+    display: block;
+    color: #2C4E8B;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: lighter;
+}
+
+.bullets {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bullet {
+    background: #122649;
+    opacity: 0.11;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 16px;
+}
+
+.active {
+    background: #FF4F4F;
+    opacity: 1;
 }
