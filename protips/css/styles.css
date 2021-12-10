@@ -165,7 +165,7 @@ html, body {
 }
 
 .box {
-    padding: 150px 0;
+    padding: 200px 0 80px 0;
     width: 25%;
     float: left;
 }
@@ -215,6 +215,10 @@ html, body {
     height: 800px;
 }
 
+#about .center {
+    padding-top: 150px;
+}
+
 .about-img {
     width: 50%;
     float: left;
@@ -247,4 +251,54 @@ html, body {
     font-weight: bold;
     color: #262626;
     margin: 10px 0 20px 60px;
+}
+
+.about-text ul {
+    margin: 30px 0 0 60px;
+}
+
+.checkpoint {
+    width: 24px;
+    height: 24px;
+    background: url("../images/check.png") 0 0 no-repeat;
+    float: left;
+}
+
+.item-list-about span {
+    float: left;
+    padding: 5px 0 20px 10px;
+}
+
+.about-btns {
+    margin-top: 95px;
+    margin-left: 60px;
+}
+
+.btn-know-more {
+    float: left;
+}
+
+.btn-watch {
+    float: left;
+}
+
+.btn-watch i {
+    float: left;
+}
+
+.btn-play {
+    margin-top: 2px;
+    margin-left: 8px;
+    background: url("../images/play.png") 0 0 no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-watch span {
+    margin-left: 20px;
+    padding-top: 8px;
+    float: left;
+    color: #FF4F4F;
+    font-size: 19px;
+    font-weight: 500;
 }
