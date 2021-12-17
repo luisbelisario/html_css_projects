@@ -48,7 +48,7 @@ html, body {
 
 /* CENTER */
 .center {
-    width: 1110px;
+    width: 950px;
     margin: 0 auto;
 }
 
@@ -159,10 +159,6 @@ html, body {
 }
 
 /* ICONS AREA */
-
-.box-container {
-    margin-left: 100px;
-}
 
 .box {
     padding: 200px 0 80px 0;
@@ -377,4 +373,93 @@ html, body {
 .active {
     background: #FF4F4F;
     opacity: 1;
+}
+
+/* OUR STORY AREA */
+
+.our-story {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #342D20;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 18px;
+    color: #544837;
+    text-align: center;
+}
+
+.our-story-box-main {
+    margin-top: 100px;
+}
+
+.our-story-box {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.our-story-box img {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.our-story-box h3 {
+    font-size: 26px;
+    color: #111;
+    font-weight: 600;
+    margin-top: 8px;
+    padding-left: 50px;
+}
+
+.our-story-box p {
+    margin: 30px 0 0 50px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* POSTS AREA */
+
+.posts {
+    padding-top: 100px;
+}
+
+.post-box {
+    width: 33.33%;
+    float: left;
+}
+
+.post-wrapper {
+    padding: 0 15px;
+}
+
+.post-img {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.post-box span {
+    color: #2F281E;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    display: block;
+    padding: 20px 0 15px 0;
+}
+
+.post-box p {
+    color: #5C5040;
+    font-size: 16px;
+    line-height: 18px;
 }
