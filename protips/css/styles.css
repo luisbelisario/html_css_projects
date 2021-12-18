@@ -172,6 +172,12 @@ a {
     display: inline-block;
 }
 
+.hero-btn:hover {
+    color: #FF4F4F;
+    background-color: #FFF;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3);
+}
+
 .hero-img {
     float: left;
     width: 30%;
@@ -322,6 +328,10 @@ a {
     font-weight: 500;
 }
 
+.btn-watch span:hover {
+    color: #2F281E;
+}
+
 /* TESTIMONIALS AREA */
 
 .box-test {
@@ -378,24 +388,28 @@ a {
     font-weight: lighter;
 }
 
-.bullets {
-    margin-top: 50px;
-    text-align: center;
-}
 
+.swiper-pagination-bullet,
 .bullet {
-    background: #122649;
-    opacity: 0.11;
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    margin: 0 5px;
-    border-radius: 16px;
+    background: #122649 !important;
+    opacity: 0.11 !important;
+    width: 16px !important;
+    height: 16px !important;
+    display: inline-block !important;
+    margin: 0 5px !important;
+    border-radius: 16px !important;
 }
 
-.active {
-    background: #FF4F4F;
-    opacity: 1;
+.swiper-pagination-bullet-active,
+.bullet:hover,
+.bullet.active {
+    background: #FF4F4F !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 50px;
 }
 
 /* OUR STORY AREA */
@@ -479,6 +493,11 @@ a {
     line-height: 28px;
     display: block;
     padding: 20px 0 15px 0;
+}
+
+.post-box span:hover {
+    cursor: pointer;
+    color: #FF4F4F;
 }
 
 .post-box p {
@@ -599,6 +618,11 @@ a {
 
 .footer-item {
     line-height: 25px;
+}
+
+.footer-item a:hover {
+    color: #FF4F4F;
+    font-weight: 600;
 }
 
 .footer-wrapper-logo {
