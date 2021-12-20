@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerts</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles_msg.css">
+    <script src="./scripts.js"></script>
+</head>
+<body>
+    <!--
+    <div class="row">
+        <div class="col-12 col-s-12">
+            <div class="msg erro">
+                Erro.
+                <span class="btn-close" onClick="closeAlert(event)">&times;</span>
+            </div>
+        </div>
+        <div class="col-12 col-s-12">
+            <div class="msg ok">
+                Ok.
+                <span class="btn-close" onClick="closeAlert(event)">&times;</span>
+            </div>
+        </div>
+        <div class="col-12 col-s-12">
+            <div class="msg neutro">
+                Neutro.
+                <span class="btn-close" onClick="closeAlert(event)">&times;</span>
+            </div>
+        </div>
+        <div class="col-12 col-s-12">
+            <div class="msg alerta">
+                Alerta.
+                <span class="btn-close" onClick="closeAlert(event)">&times;</span>
+            </div>
+        </div>
+    </div>
+    -->
+    <div class="row">
+        <div class="col-12 col-s-12">
+            <div id=msg></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 col-s-3">
+            <button onClick="openAlert('ok', 'OK')" class="btn">Mensagem verde</button>
+        </div>
+        <div class="col-3 col-s-3">
+            <button onClick="openAlert('erro', 'Erro')" class="btn">Mensagem vermelha</button>
+        </div>
+        <div class="col-3 col-s-3">
+            <button onClick="openAlert('neutro', 'Neutro')" class="btn">Mensagem azul</button>
+        </div>
+        <div class="col-3 col-s-3">
+            <button onClick="openAlert('alerta', 'Alerta')" class="btn">Mensagem amarela</button>
+        </div>
+    </div>
+</body>
+</html>

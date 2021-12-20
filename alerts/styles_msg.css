@@ -1,0 +1,33 @@
+.msg {
+    position: relative;
+    padding: 15px;
+    color: #FFF;
+    margin-bottom: 5px;
+}
+
+.btn {
+    width: 100%;
+}
+
+.btn-close {
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.erro {
+    background-color: #F44336;
+}
+
+.ok {
+    background-color: #4caf50;
+}
+
+.neutro {
+    background-color: #2196f3;
+}
+
+.alerta {
+    background-color: #ff9800;
+}
