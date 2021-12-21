@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .center {
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .swiper-slide {
+            width: 100%;
+            text-align: center;
+        }
+        .swiper-pagination {
+            position: absolute !important;
+            margin-top: 50px;
+            cursor: pointer;
+        }
+
+        .circular {
+            width: 513px;
+            background-color: #444;
+        }
+
+        .texto {
+            width: 400px;
+        }
+
+        .cidade {
+            width: 513px;
+            height: 342px;
+            background-image: url('http://files.cod3r.com.br/curso-web/imagem4.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 200%;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="http://files.cod3r.com.br/curso-web/imagem1.jpg" alt="Pedras no Mar" width="100%" height="342">
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://files.cod3r.com.br/curso-web/imagem2.jpg" alt="Pedras no Mar" width="100%" height="342">
+                </div>
+                <div class="swiper-slide">
+                    <img src="http://files.cod3r.com.br/curso-web/imagem4.jpg" alt="Pedras no Mar" width="100%" height="342">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+</html>

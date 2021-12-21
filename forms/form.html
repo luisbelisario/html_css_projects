@@ -19,7 +19,8 @@
 
 </style>
 
-<form action="http://localhost:3003/usuarios" method="POST">
+<form method="POST">
+    <input type="hidden" name="id" value="3">
     <span>Nome:</span>
     <input type="text" name="nome">
     <span>Senha:</span>
@@ -54,5 +55,7 @@
             <option value="3">Gastronomia</option>
         </select>
     </div>
-    <button type="submit">Incluir</button>
+    <!--É possivel realizar actions diferentes em forms usando formaction nos buttons-->
+    <button type="submit" formaction="http://localhost:3003/usuarios">Incluir</button>
+    <button type="submit" formaction="http://localhost:3003/usuarios/3">Alterar</button>
 </form>
