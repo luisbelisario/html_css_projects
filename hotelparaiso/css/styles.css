@@ -1,0 +1,64 @@
+/* GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header img {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #191c03;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+}
