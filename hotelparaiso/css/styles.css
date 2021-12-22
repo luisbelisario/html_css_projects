@@ -31,6 +31,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    background-color: #FFF;
 }
 
 header img {
@@ -57,8 +58,109 @@ nav a {
     color: #191c03;
 }
 
+nav a:hover {
+    font-weight: bold;
+}
+
 @media (max-width: 700px) {
     header {
         flex-direction: column;
     }
+}
+
+
+/* HERO */
+.hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.hero h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.hero .btn {
+    background-color: #FFF;
+    border-radius: 4px;
+    color: #191c03;
+    padding: 8px 20px;
+}
+
+.hero .btn:hover {
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* INFO */
+.col-12 {
+    width: 100%;
+}
+
+.col-6 {
+    width: 49.98%;
+}
+
+.text {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.text h4 {
+    font-size: 1.1rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-container p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-container a {
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #191c03;
+    background-color: #FFF;
+    border-radius: 4px;
+    color: #191c03;
+    padding: 8px 20px;
+}
+
+.info-container a:hover {
+    font-weight: bold;
 }
