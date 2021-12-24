@@ -62,7 +62,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     header {
         flex-direction: column;
     }
@@ -106,7 +106,7 @@ nav a:hover {
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .hero h1 {
         font-size: 2.5rem;
     }
@@ -151,6 +151,24 @@ nav a:hover {
 .info-container p {
     font-size: 20px;
     font-weight: bold;
+}
+
+@media (max-width: 810px) {
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .info-container img {
+        margin-top: 30px;
+        max-width: 350px;
+        max-height: 350px;
+    }
 }
 
 /* STATS */
@@ -207,6 +225,34 @@ nav a:hover {
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3);
 }
 
+@media (max-width: 810px) {
+    .stats-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .stats-container img {
+        max-width: 350px;
+        max-height: 350px;
+    }
+    .stats-icons {
+        text-align: center;
+    }
+    .stats-icons ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .stats-icons h4 {
+        display: inline;
+    }
+    .stats-icons i {
+        display: inline;
+    }
+}
+
 /* CONTACT */
 .contact-form-container {
     display: flex;
@@ -252,6 +298,12 @@ nav a:hover {
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,.3);
 }
 
+@media (max-width: 810px) {
+    .contact-form button {
+        width: 41vw;
+    }
+}
+
 /* FOOTER */
 footer {
     margin-top: 40px;
@@ -294,4 +346,10 @@ footer {
 .social-item a:hover {
     color: #000;
     font-weight: bold;
+}
+
+@media (max-width: 810px) {
+    .location {
+        text-align: center;
+    }
 }
