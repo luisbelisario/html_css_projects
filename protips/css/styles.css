@@ -381,11 +381,12 @@ a {
 }
 
 .parag-test {
-    display: block;
+    display: none;
     color: #2C4E8B;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     font-weight: lighter;
+    text-align: center;
 }
 
 

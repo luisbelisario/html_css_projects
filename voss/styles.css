@@ -1,0 +1,147 @@
+/* GERAIS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;500;600&family=Prompt:wght@100;200;400;500;600&family=Roboto:wght@400;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+    font-family: 'Prompt', sans-serif;
+}
+
+.col-6 {
+    width: 50vw;
+}
+
+.col-12 {
+    width: 94vw;
+}
+
+/* HEADER */
+
+header {
+    padding: 35px 35px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list li {
+    margin: 0px 50px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #58778E;
+    cursor: pointer;
+}
+
+/* HERO AREA */
+.hero-area {
+    display: flex;
+    height: 500px;
+    padding: 50px 50px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: normal;
+    color: #58778E;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: #58778E;
+    line-height: 40px;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+/* BACKGROUND AREA */
+.bg-text h1 {
+    font-size: 67px;
+    color: #58778E;
+}
+
+
+.bg-area {
+    background-image: url("./images/norway.png");
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-area h1 {
+    font-size: 67px;
+    color: #FFF;
+    margin-bottom: 400px;
+    font-weight: 900;
+}
