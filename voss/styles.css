@@ -20,6 +20,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    scroll-behavior: smooth;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -83,7 +84,12 @@ header {
 .nav-list a {
     text-decoration: none;
     color: #58778E;
-    cursor: pointer;
+}
+
+.nav-list a:hover {
+    text-decoration: none;
+    color: #1E2D41;
+    font-size: larger;
 }
 
 /* HERO AREA */
@@ -145,4 +151,117 @@ header {
     color: #FFF;
     margin-bottom: 320px;
     font-weight: 900;
+}
+
+/* PRODUCTS AREA */
+.products-area {
+    background-image: url("./images/hero-large.png");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.products-wrapper {
+    position: absolute;
+    top: 250px;
+    left: 120px;
+}
+
+.products-wrapper h1 {
+    margin-bottom: 20px;
+    font-size: 67px;
+    color: #58778E;
+}
+
+.products-wrapper ul {
+    text-align: center;
+}
+
+.products-wrapper li {
+    font-size: 20px;
+    color: #58778E;
+    padding: 5px 0;
+}
+
+/* CONTACT AREA */
+.contact-area {
+    background-color: #58778E;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-area h1 {
+    color: #FFF;
+    font-size: 38px;
+    margin-top: 100px;
+}
+
+.contact-form-wrapper {
+    margin-top: 80px;
+    width: 90vh;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.contact-form input::placeholder {
+    font-family: 'Prompt', sans-serif;
+}
+
+.contact-form textarea {
+    margin: 10px 0;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.contact-form textarea::placeholder {
+    font-family: 'Prompt', sans-serif;
+    margin-left: 5px;
+}
+
+.contact-form-btn-container button {
+    margin-top: 20px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding: 10px 40px;
+    background-color: #1E2D41;
+    color: #FFF;
+    font-size: medium;
+}
+
+.contact-form-btn-container button:hover {
+    cursor: pointer;
+    background-color: #334d6f;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1E2D41;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    color: #FFF;
+    text-align: center;
 }
